@@ -16,6 +16,4 @@ This ensures the server is running before starting up the app
 
 To run on IOS simulator , ensure you're in the IOS directory(### `cd ios`) before running the pod install command, then run ### `yarn run ios`
 
-### `pod install`
-
 To run on Android simulator , ensure you're in the root directory of the project , then run ### `yarn run android`
