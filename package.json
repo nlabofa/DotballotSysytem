@@ -1,0 +1,38 @@
+{
+  "name": "dotballotsystem",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "backend": "nodemon ./api/index.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "cuid": "^2.1.8",
+    "koa": "^2.13.4",
+    "koa-router": "^10.1.1",
+    "lorem-ipsum": "^2.0.3",
+    "nodemon": "^2.0.15",
+    "react": "17.0.2",
+    "react-native": "0.68.2",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-modal": "^13.0.1",
+    "react-native-responsive-screen": "^1.4.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/runtime": "^7.17.9",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^28.1.0",
+    "eslint": "7.14.0",
+    "jest": "^28.1.0",
+    "metro-react-native-babel-preset": "^0.70.3",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
