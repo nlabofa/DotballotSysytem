@@ -6,18 +6,13 @@ This project was bootstrapped with [Create React Native App](https://reactnative
 
 In the project directory, ensure you run the scripts in this flow:
 
-### `npm run backend` to start the server
+### `npm run backend`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This ensures the server is running before starting up the app
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### `yarn install`
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Go into the IOS directory(### `cd ios`) and run ### `pod install`
 
 ### `npm run build`
 
